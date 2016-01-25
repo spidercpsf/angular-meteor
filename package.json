@@ -1,5 +1,5 @@
 {
-  "name": "angular-meteor",
+  "name": "ows-angular-meteor",
   "version": "1.0.0",
   "description": "JSPM enabled angular-meteor",
   "main": "dist/angular-meteor.bindle.js",
