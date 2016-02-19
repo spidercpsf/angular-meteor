@@ -1,11 +1,15 @@
 {
   "name": "ows-angular-meteor",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "JSPM enabled angular-meteor",
-  "main": "dist/angular-meteor.bindle.js",
+  "main": "dist/angular-meteor.bundle.js",
   "directories": {
     "doc": "docs",
     "example": "examples"
+  },
+  "dependencies" :{
+    "angular": "^1.4.4",
+    "ows-meteor-client-side": "^1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +28,12 @@
   "bugs": {
     "url": "https://github.com/spidercpsf/angular-meteor/issues"
   },
-  "homepage": "https://github.com/spidercpsf/angular-meteor"
+  "homepage": "https://github.com/spidercpsf/angular-meteor",
+  "jspm": {
+    "format": "global",
+    "directories": {
+      "lib": "dist"
+    },
+    "main": "angular-meteor.bundle"
+  }
 }
